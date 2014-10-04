@@ -52,8 +52,6 @@ telescope-lib
 telescope-rss
 telescope-api
 telescope-module-share
-telescope-theme-base
-telescope-theme-hubble
 telescope-daily
 telescope-newsletter
 telescope-module-embedly
@@ -66,3 +64,6 @@ matb33:collection-hooks
 djedi:sanitize-html
 rajit:bootstrap3-datepicker
 telescope-update-prompt
+telescope-theme-mono
+jquery
+

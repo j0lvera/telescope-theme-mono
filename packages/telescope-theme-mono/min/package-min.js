@@ -1,0 +1,1 @@
+Package.describe({summary:"Telescope Mono theme"}),Package.onUse(function(e){e.use(["telescope-lib","telescope-base","jquery"],["client","server"]),e.add_files(["lib/client/js/main.js","lib/mono.js"],["client","server"]),e.add_files(["lib/client/css/style.css"],["client"])});

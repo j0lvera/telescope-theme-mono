@@ -1,0 +1,34 @@
+// Presentation styles
+.demo-col {
+	margin-top: 0.618em;
+	display: block;
+	padding: 0.618em 0;
+	border-radius: 3px;
+	background-color: #eee;
+	text-align: center;
+}
+
+// Grid System
+.grid-notes {
+	@include cols(4);
+}
+
+.grid-snippet {
+	@include cols(8, 0);
+}
+
+// Masthead
+.masthead {
+	margin-bottom: 4em;
+	padding: 2em 0;
+	background-color: #333;
+	color: #fff;
+}
+
+.site-title {
+	margin-top: 0;
+}
+
+.site-description {
+	margin-bottom: 0;
+}

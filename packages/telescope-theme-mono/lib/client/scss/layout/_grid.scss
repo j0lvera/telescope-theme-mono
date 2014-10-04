@@ -1,0 +1,33 @@
+@import "../variables";
+@import "../vendors/hyx";
+
+$gutter: 1%;
+
+.col-1-1 {
+	width: 100%;
+}
+
+.col-1-2 { 
+	@include cols(1/2); 
+}
+
+.col-1-3 {
+	@include cols(1/3);
+}
+
+.col-1-4 {
+	@include cols(1/4);
+}
+
+#main {
+	@include cols(8);
+}
+
+#sidebar {
+	@include cols(4, 0);
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
