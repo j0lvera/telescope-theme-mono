@@ -14,7 +14,8 @@ Package.onUse(function (api) {
     ], ['client', 'server']);
 
   api.add_files([
-    'lib/client/css/style.css',
+    'lib/client/css/fonts.css',
+    'lib/client/css/style.css'
     ], ['client']);
   
 });

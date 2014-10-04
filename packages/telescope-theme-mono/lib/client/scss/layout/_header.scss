@@ -1,1 +1,38 @@
-.masthead {}
+// TODO:
+// Look where to put this
+.mobile-only {
+	@include respond-to(768px) {
+		display: none;
+	}
+}
+
+.hidden {
+	display: none;
+}
+
+/*
+ * Header 
+ */
+
+.header {
+	margin-bottom: 1rem;
+	padding: 1rem;
+	background-color: #eee;
+
+	.logo,
+	.primary-nav,
+	.secondary-nav {
+		padding: 0;
+		margin: 0;
+		display: inline-block;
+	}
+}
+
+/*
+ * Logo 
+ */
+
+.logo {
+	font-size: 1.618rem;
+}
+

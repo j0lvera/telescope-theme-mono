@@ -1,29 +1,27 @@
 @import "../variables";
 
-[class^="icon-"] {
-	margin-bottom: 1em;
-	width: 2em;
-	height: 2em;
-	border: 1px solid $icon-border-color;
-	text-align: center;
+/*
+ * Mono Icons 
+ */
 
-	i {
-		line-height: 2em;
+@import "../vendors/fonts";
+
+/*
+ * Mono Icons 
+ */
+
+.icon-comment:before {
+	@extend .icon-bubble;
+}
+
+/*
+ * Share Icons 
+ */
+
+.mt-share-inline-square-sm {
+	background-color: #eee;
+
+	img {
+		width: 2rem;
 	}
-}
-
-.icon-circle {
-	border-radius: 100%;
-}
-
-.icon-rounded {
-	border-radius: $icon-roundness;
-}
-
-.icon-large {
-	font-size: 150%;
-}
-
-.icon-huge {
-	font-size: 200%;
 }

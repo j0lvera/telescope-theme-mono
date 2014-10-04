@@ -22,7 +22,11 @@
 
 @import "layout/header";
 
+@import "layout/navigation";
+
 @import "layout/container";
+
+@import "layout/posts";
 
 @import "layout/footer";
 
@@ -34,7 +38,6 @@
  * UI 
  */
 
-@import "UI/navigation";
 
 @import "UI/buttons";
 

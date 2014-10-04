@@ -1,15 +1,16 @@
 // General
-$site-width: 65rem;
+$site-width: 46.971rem;
 $baseline: 1.618rem;
+$theme-color: brown;
 
 // Grid Variables.
 $column-count: 12;
 $gutter: 3%;
 
 // Typography Variables.
-$text-color: #333;
-$link-color: #0f82bd;
-$muted-text-color: lighten($text-color, 15%);
+$text-color: #555;
+$link-color: $theme-color;
+$muted-text-color: lighten($text-color, 50%);
 
 $base-font-family: 'PT Sans', sans-serif;
 $base-font-size: 1rem;

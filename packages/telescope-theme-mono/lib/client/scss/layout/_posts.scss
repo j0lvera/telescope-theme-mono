@@ -1,0 +1,104 @@
+@import "../variables";
+
+/*
+ * Posts
+ */
+
+.posts-wrapper {}
+
+.posts {}
+
+.modules-group {
+	margin-right: 1rem;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.right-modules {
+	float: right;
+}
+
+.post {
+	display: table;
+	width: 100%;
+	margin-bottom: $baseline;
+}	
+
+.post-heading {
+	margin: 0;
+	font-size: $base-font-size;
+}
+
+.post-domain {
+	color: $muted-text-color;
+	font-size: 0.818rem;
+	font-style: italic;
+	font-weight: normal;
+
+	// &:before { content: " - "; }
+}
+
+.post-meta {}
+
+.post-meta-item {
+	display: inline-block;
+}
+
+.post-rank {
+	margin-right: 0.618rem;
+	display: inline-block;
+
+	span {
+		display: none;
+	}
+}
+
+.post-upvote {
+	position: relative;
+}
+
+.upvote-link {
+	.icon-up {
+		display: inline-block;
+		border-bottom: 12px solid $theme-color;
+		border-left: 8px solid transparent;
+		border-right: 8px solid transparent;
+		border-top: 12px solid transparent;
+	}
+
+	span { 
+		display: none; 
+	}
+}
+
+.not-voted {}
+
+.post-share,
+.post-discuss {
+	display: inline-block;
+}
+
+.post-share {
+	margin-right: 0.618rem;
+
+	.icon-share {
+		margin-right: 0.225rem;
+		color: #f39c12;
+	}
+
+	.action {
+		display: none;
+	}
+}
+
+.post-discuss {
+
+	.count,
+	.icon-comment {
+		color: #2ecc71;
+	}
+
+	.action { 
+		display: none;
+	}
+}

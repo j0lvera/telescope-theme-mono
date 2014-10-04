@@ -1,0 +1,39 @@
+/*
+ * Navigation 
+ */
+
+.mobile-menu-button,
+.mobile-nav {
+	@include respond-to(768px) {
+		display: none;
+	}
+}
+
+.nav {
+	list-style: none;	
+
+	& > li { 
+		display: inline-block; 
+	}
+}
+
+.dropdown {
+	display: inline-block;
+
+	&:hover > .dropdown-menu {
+		display: block;	
+	}
+}
+
+.dropdown-menu {
+	background-color: #fff;
+	position: absolute;
+	display: none;
+
+	& > ul {
+		margin-left: 0;
+		padding-left: 0;
+		list-style: none;	
+	}
+}
+
